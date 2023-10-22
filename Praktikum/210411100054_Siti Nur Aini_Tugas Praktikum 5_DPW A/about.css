@@ -1,0 +1,135 @@
+/* CONTAINER */
+
+.container {
+    width: 1250px;
+    margin: 80px auto;
+    position: relative;
+    border: solid 2px black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+
+.header {
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.header .logo img {
+    width: 200px;
+    margin-right: 150px;
+    float: left;
+}
+
+.header .navbar ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header .navbar a {
+    text-decoration: none;
+    color: orange;
+    padding: 3px;
+}
+
+.header .navbar a:hover {
+    background-color: rgb(139, 183, 168);
+    color: black;
+}
+
+.header .login input {
+    margin-left: 260px;
+    background-color: rgb(139, 183, 168);
+    color: white;
+    font-size: 14px;
+    border: solid 1px black;
+    border-radius: 4px;
+    width: 110px;
+    height: 35px;
+}
+
+
+/* CONTENT */
+
+.content {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.content .main h1 {
+    text-align: center;
+}
+
+.content img {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .main {
+    text-align: justify;
+}
+
+.content .main .story h2 {
+    background-color: rgb(139, 183, 168);
+    border: solid 1px black;
+    border-radius: 40px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.content .main .story h3 {
+    color: white;
+    text-align: center;
+}
+
+.content .main .story .warna {
+    border: solid 1px black;
+    background-color: rgb(139, 183, 168);
+    border-radius: 30px;
+}
+
+.content .main .value h2 {
+    background: linear-gradient(to right, #f0c7b3, #f5cfa0);
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.content .main .value h3 {
+    text-decoration: underline white;
+    text-align: center;
+}
+
+.content .main .value .merah {
+    background-color: #f0c7b3;
+    border: solid 1px black;
+}
+
+.content .main .value .orange {
+    background-color: #f5cfa0;
+    border: solid 1px black;
+}
+
+.content .main .value #satu {
+    border-radius: 70px 70px 0px 70px;
+}
+
+.content .main .value #dua {
+    border-radius: 70px 70px 70px 0px;
+}
+
+.content .main .value #tiga {
+    border-radius: 70px 0px 70px 70px;
+}
+
+.content .main .value #empat {
+    border-radius: 0px 70px 70px 70px;
+}

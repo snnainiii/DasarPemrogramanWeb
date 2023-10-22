@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Umur</title>
+</head>
+
+<body>
+    <script language="javascript">
+        var nama = prompt("Masukkan Nama : ")
+        var ttl = prompt("Masukkan Tanggal Lahir (DD/MM/YYYY) : ")
+
+        function getAge(birth) {
+            var today = new Date();
+            var set_date = today.getDate();
+            var set_month = today.getMonth() + 1;
+            var set_year = today.getFullYear();
+
+            var pieces = birth.split('/');
+            var birth_date = pieces[0];
+            var birth_month = pieces[1];
+            var birth_year = pieces[2];
+
+            if (set_month == birth_month && set_date >= birth_date) return parseInt(set_year - birth_year);
+            if (set_month == birth_month && set_date < birth_date) return parseInt(set_year - birth_year - 1);
+            if (set_month > birth_month) return parseInt(set_year - birth_year);
+            if (set_month < birth_month) return parseInt(set_year - birth_year - 1);
+        }
+
+        var age = getAge(ttl);
+        if (age < 0) {
+            alert("Anda Belum Lahir");
+        } else {
+            alert("Umur " + nama + " Sekarang Adalah " + age + " Tahun");
+        }
+    </script>
+</body>
+
+</html>

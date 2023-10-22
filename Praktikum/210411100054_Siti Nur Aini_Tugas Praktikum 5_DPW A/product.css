@@ -1,0 +1,81 @@
+/* CONTAINER */
+
+.container {
+    width: 1250px;
+    margin: 80px auto;
+    position: relative;
+    border: solid 2px black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+
+.header {
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.header .logo img {
+    width: 200px;
+    margin-right: 150px;
+    float: left;
+}
+
+.header .navbar ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header .navbar a {
+    text-decoration: none;
+    color: orange;
+    padding: 3px;
+}
+
+.header .navbar a:hover {
+    background-color: rgb(139, 183, 168);
+    color: black;
+}
+
+.header .login input {
+    margin-left: 260px;
+    background-color: rgb(139, 183, 168);
+    color: white;
+    font-size: 14px;
+    border: solid 1px black;
+    border-radius: 4px;
+    width: 110px;
+    height: 35px;
+}
+
+
+/* CONTENT */
+
+.content {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.content .main h1 {
+    color: orange;
+}
+
+.content .main p {
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.content .main table td {
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: rgb(139, 183, 168);
+}
+
+.content .main img {
+    width: 90px;
+}

@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(to left, rgb(64, 121, 213), rgb(74, 201, 159))
+}
+
+#card {
+    background: #fbfbfb;
+    border-radius: 9px;
+    border: solid 1px black;
+    height: 500px;
+    width: 350px;
+    margin: 96px auto 129px auto;
+}
+
+#card-content {
+    padding: 12px 44px;
+}
+
+#card-content h1 {
+    margin-left: 30px;
+    margin-top: 210px;
+    color: rgb(64, 121, 213);
+}
+
+#card-title h2 {
+    letter-spacing: 4px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.underline-title {
+    background: linear-gradient(to right, rgb(64, 121, 213), rgb(74, 201, 159));
+    height: 2px;
+    margin: -17px auto 0 auto;
+    width: 96px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 17px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    background: linear-gradient(to right, rgb(64, 121, 213), rgb(74, 201, 159));
+    height: 1px;
+}
+
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+    font-size: 17px;
+}
+
+.form-border {
+    background: linear-gradient(to right, rgb(64, 121, 213), rgb(74, 201, 159));
+    height: 1px;
+}
+
+#submit-btn {
+    background: linear-gradient(to right, rgb(64, 121, 213), rgb(74, 201, 159));
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+#submit-btn:hover {
+    box-shadow: 0px 1px 10px rgb(74, 201, 159);
+}
+
+#nama_error,
+#nim_error,
+#password_error {
+    margin-top: 5px;
+    width: 345px;
+    font-size: 13px;
+    color: #C62828;
+    display: none;
+}

@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CONTAINER */
+
+.container {
+    width: 70%;
+    height: auto;
+    margin: 80px auto;
+    border: 1px solid black;
+    background-color: #0a62a9;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 80px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #0a62a9;
+    color: white;
+}
+
+.header h1 {
+    padding-bottom: 10px;
+}
+
+
+/* MENU */
+
+.menu {
+    /* margin: 0px; */
+    height: 45px;
+    background-color: #001d3a;
+}
+
+.menu ul {
+    margin: 0px;
+    margin-left: -5px;
+}
+
+.menu ul li {
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #9ed5fa;
+    border: 1px solid black;
+    width: 150px;
+    height: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+.menu ul li:hover {
+    background-color: #e3f1f9;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 1px dashed black;
+    background-color: #9ed5fa;
+    float: right;
+    width: 320px;
+}
+
+.sidebox1 {
+    border: 4px solid #003871;
+    width: 300px;
+    margin: 10px;
+}
+
+.sidebox1 h1 {
+    background-color: #001d3a;
+    font-size: 15pt;
+    padding-bottom: 10px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.sidebox1 input {
+    margin-bottom: 10px;
+}
+
+.sidebox1 input[type="submit"] {
+    width: 130px;
+}
+
+.sidebox1 input[type="reset"] {
+    width: 130px;
+}
+
+.sidebox1 fieldset {
+    background-color: #e3f1f9;
+}
+
+.sidebox2 {
+    border: 4px solid #003871;
+    width: 300px;
+    margin: 10px;
+    background-color: #e3f1f9;
+}
+
+.sidebox2 h1 {
+    background-color: #001d3a;
+    font-size: 15pt;
+    padding-bottom: 10px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+
+/* CONTENT */
+
+.content {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    background-color: #e3f1f9;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.content ul li a:hover {
+    color: #0a62a9;
+}
+
+.content ul li ol li a {
+    color: black;
+}
+
+.content ul li ol li a:hover {
+    color: #0a62a9;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #e3f1f9;
+    text-align: center;
+    padding-bottom: 10px;
+    height: 50px;
+}

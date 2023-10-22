@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                <form action="index.html" method="post">
+                    <table border="0" cellpadding="2">
+                        <!-- JUDUL START -->
+                        <tr>
+                            <td align="center" colspan="5">
+                                <h2>
+                                    <font face="arial, sans-serif">STUDENT DATA</font>
+                                </h2>
+                            </td>
+                        </tr>
+                        <!-- JUDUL END -->
+
+                        <!-- PERSONAL DATA START -->
+                        <tr>
+                            <td rowspan="8" bgcolor="lightblue">
+                                <font face="arial, sans-serif">PERSONAL DATA</font>
+                            </td>
+                            <td>
+                                <font face="arial, sans-serif">Name</font>
+                            </td>
+                            <td>
+                                <input type="text" name="firstName" size="25">
+                            </td>
+                            <td>
+                                <input type="text" name="middleName" size="25">
+                            </td>
+                            <td>
+                                <input type="text" name="lastName" size="25">
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- <td>PERSONAL DATA</td> -->
+                            <td></td>
+                            <td>
+                                <font face="arial, sans-serif" size="-1">First Name</font>
+                            </td>
+                            <td>
+                                <font face="arial, sans-serif" size="-1">Middle Name</font>
+                            </td>
+                            <td>
+                                <font face="arial, sans-serif" size="-1">Last Name</font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- <td>PERSONAL DATA</td> -->
+                            <td>
+                                <font face="arial, sans-serif">NIM</font>
+                            </td>
+                            <td colspan="2">
+                                <input type="text" name="nim" size="59">
+                            </td>
+                            <!-- <td></td> -->
+                            <td>
+                                <select name="NIM" id="NIM">
+                                    <option value="-- Year of University Entrance --"> -- Year of University Entrance --</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- <td>PERSONAL DATA</td> -->
+                            <td>
+                                <font face="arial, sans-serif">Faculty, Department & Program</font>
+                            </td>
+                            <td>
+                                <select name="Faculty" id="Facculty">
+                                    <option value="-- Faculty --">-- Faculty -- &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="Engineering">Engineering</option>
+                                    <option value="Law">Law</option>
+                                    <option value="Economics">Economics</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Department" id="Department">
+                                    <option value="-- Department --">-- Department -- &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="Informatics">Informatics</option>
+                                    <option value="Industrial Engineering">Industrial Engineering</option>
+                                    <option value="Electrical Engineering">Electrical Engineering</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="Program" id="Program">
+                                    <option value="-- Study Program --">-- Study Program -- &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="Informatics">Informatics</option>
+                                    <option value="Information System">Information System</option>
+                                    <option value="Industrial Engineering">Industrial Engineering</option>
+                                    <option value="Mechanical Engineering">Mechanical Engineering</option>
+                                    <option value="Mechatronics Engineering">Mechatronics Engineering</option>
+                                    <option value="Electrical Engineering">Electrical Engineering</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- <td>PERSONAL DATA</td> -->
+                            <td>
+                                <font face="arial, sans-serif">Gender</font>
+                            </td>
+                            <td colspan="3">
+                                <label for="M">
+                                    <font face="arial, sans-serif">Male</font>
+                                </label>
+                                <input type="radio" name="gender" id="M" value="M">
+                                <label for="F">
+                                    <font face="arial, sans-serif">Female</font>
+                                </label>
+                                <input type="radio" name="gender" id="F" value="F"></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>PERSONAL DATA</td> -->
+                            <td>
+                                <font face="arial, sans-serif">Email</font>
+                            </td>
+                            <td colspan="3">
+                                <input type="text" name="email" size="90">
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>PERSONAL DATA</td> -->
+                            <td>
+                                <font face="arial, sans-serif">Address</font>
+                            </td>
+                            <td colspan="3" rowspan="2">
+                                <textarea name="address" id="address" cols="84" rows="3"></textarea>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>PERSONAL DATA</td> -->
+                            <td>
+                                <font color="white">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                <font color="white">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- PERSONAL DATA END -->
+
+                        <!-- SUPPORT AND ACCOUNT START -->
+                        <tr>
+                            <td rowspan="7" bgcolor="lightblue">
+                                <font face="arial, sans-serif">SUPPORT AND ACCOUNT</font>
+                            </td>
+                            <td colspan="4">
+                                <font face="arial, sans-serif">Do you have scholarship support?</font>
+                            </td>
+                            <!-- <td ></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>SUPPORT AND ACCOUNT</td> -->
+                            <td colspan="4">
+                                <input type="radio" name="support" id="N" value="N" checked="checked">
+                                <label for="N"> 
+                                    <font face="arial, sans-serif">No</font>
+                                </label>
+                            </td>
+                            <!-- <td ></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>SUPPORT AND ACCOUNT</td> -->
+                            <td colspan="4">
+                                <input type="radio" name="support" id="Y" value="Y">
+                                <label for="Y">
+                                    <font face="arial, sans-serif">Yes &ensp;&ensp;&ensp;</font>
+                                </label>
+                                <input type="text" name="yes" size="112">
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>SUPPORT AND ACCOUNT</td> -->
+                            <td colspan="4">
+                                <font color="white">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>SUPPORT AND ACCOUNT</td> -->
+                            <td colspan="4">
+                                <font face="arial, sans-serif">Do you have to the trunojoyo email account?</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>SUPPORT AND ACCOUNT</td> -->
+                            <td colspan="4">
+                                <input type="radio" name="account" id="No" value="No" checked="Checked">
+                                <label for="No">
+                                    <font face="arial, sans-serif">No</font>
+                                </label>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>SUPPORT AND ACCOUNT</td> -->
+                            <td colspan="4">
+                                <input type="radio" name="account" id="Yes" value="Yes">
+                                <label for="Yes"> 
+                                    <font face="arial, sans-serif">Yes</font>
+                                </label>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                <font color="white">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- SUPPORT AND ACCOUNT END -->
+
+                        <!-- EDUCATION START -->
+                        <tr>
+                            <td rowspan="6" bgcolor="lightblue">
+                                <font face="arial, sans-serif">EDUCATION</font>
+                            </td>
+                            <td>
+                                <font face="arial, sans-serif">Primary School</font>
+                            </td>
+                            <td>
+                                <input type="text" name="primarySchoolName" size="25">
+                            </td>
+                            <td>
+                                <input type="text" name="primaryWebsiteURL" size="25">
+                            </td>
+                            <td>
+                                <select name="primarySchool" id="primarySchool">
+                                    <option value="-- Year of Graduate --">-- Year of Graduate -- &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- <td>EDUCATION</td> -->
+                            <td></td>
+                            <td>
+                                <font face="arial, sans-serif" size="-1">School Name</font>
+                            </td>
+                            <td colspan="2">
+                                <font face="arial, sans-serif" size="-1">Website URL</font>
+                            </td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>EDUCATION</td> -->
+                            <td>
+                                <font face="arial, sans-serif">Middle School</font>
+                            </td>
+                            <td>
+                                <input type="text" name="middleSchoolName" size="25">
+                            </td>
+                            <td>
+                                <input type="text" name="middleWebsiteURL" size="25">
+                            </td>
+                            <td>
+                                <select name="middleSchool" id="middleSchool">
+                                    <option value="-- Year of Graduate --">-- Year of Graduate -- &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- <td>EDUCATION</td> -->
+                            <td></td>
+                            <td>
+                                <font face="arial, sans-serif" size="-1">School Name</font>
+                            </td>
+                            <td colspan="2">
+                                <font face="arial, sans-serif" size="-1">Website URL</font>
+                            </td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>EDUCATION</td> -->
+                            <td>
+                                <font face="arial, sans-serif">High School</font>
+                            </td>
+                            <td>
+                                <input type="text" name="highSchoolName" size="25">
+                            </td>
+                            <td>
+                                <input type="text" name="highWebsiteURL" size="25">
+                            </td>
+                            <td>
+                                <select name="highSchool" id="highSchool">
+                                    <option value="-- Year of Graduate --">-- Year of Graduate -- &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- <td>EDUCATION</td> -->
+                            <td></td>
+                            <td>
+                                <font face="arial, sans-serif" size="-1">School Name</font>
+                            </td>
+                            <td colspan="2">
+                                <font face="arial, sans-serif" size="-1">Website URL</font>
+                            </td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                <font color="white">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- EDUCATION END -->
+
+                        <!-- SOFTWARE SKILL START -->
+                        <tr>
+                            <td rowspan="8" bgcolor="lightblue">
+                                <font face="arial, sans-serif">SOFTWARE SKILL</font>
+                            </td>
+                            <td>
+                                <font face="arial, sans-serif">Office Sofware</font>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="microsoftWord" id="microsoftWord" value="microsoftWord">
+                                <label for="microsoftWord">
+                                    <font face="arial, sans-serif">Microsoft Word</font>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="microsofAccess" id="microsofAccess" value="microsofAccess">
+                                <label for="microsofAccess">
+                                    <font face="arial, sans-serif">Microsoft Access</font>
+                                </label>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <!-- <td>SOFTWARE SKILL</td> -->
+                            <td></td>
+                            <td>
+                                <input type="checkbox" name="microsoftExel" id="microsoftExel" value="microsoftExel">
+                                <label for="microsoftExel">
+                                    <font face="arial, sans-serif">Microsoft Exel</font>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="other1" id="other1" value="other1">
+                                <label for="other1">
+                                    <font face="arial, sans-serif">Other</font>
+                                </label>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <!-- <td>SOFTWARE SKILL</td> -->
+                            <td colspan="4">
+                                <font color="white">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>SOFTWARE SKILL</td> -->
+                            <td>
+                                <font face="arial, sans-serif">Operating System</font>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="windows" id="windows" value="windows">
+                                <label for="windows">
+                                    <font face="arial, sans-serif">Windows</font>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="macOS" id="macOS" value="macOS">
+                                <label for="macOS">
+                                    <font face="arial, sans-serif">macOS</font>
+                                </label>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <!-- <td>SOFTWARE SKILL</td> -->
+                            <td></td>
+                            <td>
+                                <input type="checkbox" name="linux" id="linux" value="linux">
+                                <label for="linux">
+                                    <font face="arial, sans-serif">Linux</font>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="other2" id="other2" value="other2">
+                                <label for="other2">
+                                    <font face="arial, sans-serif">Other</font>
+                                </label>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <!-- <td>SOFTWARE SKILL</td> -->
+                            <td colspan="4">
+                                <font color="white">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <!-- <td>SOFTWARE SKILL</td> -->
+                            <td>
+                                <font face="arial, sans-serif">Programming Language</font>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="python" id="python" value="python">
+                                <label for="python">
+                                    <font face="arial, sans-serif">Python</font>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="c++" id="c++" value="c++">
+                                <label for="c++">
+                                    <font face="arial, sans-serif">C++</font>
+                                </label>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <!-- <td>SOFTWARE SKILL</td> -->
+                            <td></td>
+                            <td>
+                                <input type="checkbox" name="java" id="java" value="java">
+                                <label for="java">
+                                    <font face="arial, sans-serif">Java</font>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="other3" id="other3" value="other3">
+                                <label for="other3">
+                                    <font face="arial, sans-serif">Other</font>
+                                </label>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                <font color="white">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- SOFTWARE SKILL END -->
+
+                        <!-- SUBMIT START -->
+                        <tr>
+                            <td colspan="5" align="center">
+                                <input type="submit" value="Submit Form">
+                            </td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- SUBMIT START -->
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

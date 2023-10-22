@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+
+<body>
+    <table border="1" align="center">
+        <tr>
+            <td>
+                <form action="index.html" method="post">
+                    <table border="0" cellpadding="4" cellspacing="2" bgcolor="#edf2fb">
+                        <tr bgcolor="#d1cfe2">
+                            <td colspan="3">
+                                <h2 align="center">Formulir Pendaftaran Mahasiswa Baru <br> Politeknik Negeri Surabaya <br> 2020/2021 </h2>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- pilih program studi -->
+                        <tr>
+                            <td colspan="3" bgcolor="#d1cfe2"><strong> &ensp; <font size="+1">Pilihan Program Studi</font></strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3"><strong>Jalur Kuliah Yang Anda Pilih :</strong> </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <input type="radio" name="jalur" id="reguler" value="reguler" checked>
+                                <label for="reguler">Reguler</label>
+                                <br>
+                                <input type="radio" name="jalur" id="transfer" value="transfer">
+                                <label for="transfer">Transfer (Alih Jenjang)</label>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3"><strong>Program Studi Pilihan</strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>Pilihan Pertama :</td>
+                            <td>Pilihan Kedua :</td>
+                            <td>Pilihan Ketiga :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="utama" id="utama">
+                                    <option value="Masukkan Pilihan Pertama">-- Masukkan Pilihan Pertama -- &ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="D3 - Taknik Mesin">D3 - Taknik Mesin</option>
+                                    <option value="D3 - Teknik Sipil">D3 - Teknik Sipil</option>
+                                    <option value="D3 - Teknik Elektro">D3 - Teknik Elektro</option>
+                                    <option value="D3 - Teknik Informatika">D3 - Teknik Informatika</option>
+                                    <option value="D3 - Teknik Industri">D3 - Teknik Industri</option>
+                                    <option value="D4 - Taknik Mesin">D4 - Taknik Mesin</option>
+                                    <option value="D4 - Teknik Sipil">D4 - Teknik Sipil</option>
+                                    <option value="D4 - Teknik Elektro">D4 - Teknik Elektro</option>
+                                    <option value="D4 - Teknik Informatika">D4 - Teknik Informatika</option>
+                                    <option value="D4 - Teknik Industri">D4 - Teknik Industri</option>        
+                                </select>
+                            </td>
+                            <td>
+                                <select name="kedua" id="kedua">
+                                    <option value="Masukkan Pilihan Kedua">-- Masukkan Pilihan Kedua -- &ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="D3 - Taknik Mesin">D3 - Taknik Mesin</option>
+                                    <option value="D3 - Teknik Sipil">D3 - Teknik Sipil</option>
+                                    <option value="D3 - Teknik Elektro">D3 - Teknik Elektro</option>
+                                    <option value="D3 - Teknik Informatika">D3 - Teknik Informatika</option>
+                                    <option value="D3 - Teknik Industri">D3 - Teknik Industri</option>
+                                    <option value="D4 - Taknik Mesin">D4 - Taknik Mesin</option>
+                                    <option value="D4 - Teknik Sipil">D4 - Teknik Sipil</option>
+                                    <option value="D4 - Teknik Elektro">D4 - Teknik Elektro</option>
+                                    <option value="D4 - Teknik Informatika">D4 - Teknik Informatika</option>
+                                    <option value="D4 - Teknik Industri">D4 - Teknik Industri</option>        
+                                </select>
+                            </td>
+                            <td>
+                                <select name="ketiga" id="ketiga">
+                                    <option value="Masukkan Pilihan Ketiga">-- Masukkan Pilihan Ketiga -- &ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="D3 - Taknik Mesin">D3 - Taknik Mesin</option>
+                                    <option value="D3 - Teknik Sipil">D3 - Teknik Sipil</option>
+                                    <option value="D3 - Teknik Elektro">D3 - Teknik Elektro</option>
+                                    <option value="D3 - Teknik Informatika">D3 - Teknik Informatika</option>
+                                    <option value="D3 - Teknik Industri">D3 - Teknik Industri</option>
+                                    <option value="D4 - Taknik Mesin">D4 - Taknik Mesin</option>
+                                    <option value="D4 - Teknik Sipil">D4 - Teknik Sipil</option>
+                                    <option value="D4 - Teknik Elektro">D4 - Teknik Elektro</option>                                    
+                                    <option value="D4 - Teknik Informatika">D4 - Teknik Informatika</option>
+                                    <option value="D4 - Teknik Industri">D4 - Teknik Industri</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <font color="#edf2fb">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- data pelamar -->
+                        <tr>
+                            <td colspan="3" bgcolor="#d1cfe2"><strong>&ensp; <font size="+1">Data Diri</font></strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="2">Nama :</td>
+                            <!-- <td></td> -->
+                            <td>NIK :</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="text" name="nama" id="nama" size="63" placeholder="Masukkan Nama Lengkap" required>
+                            </td>
+                            <!-- <td></td> -->
+                            <td>
+                                <input type="number" name="nik" id="nik" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tempat Lahir :</td>
+                            <td colspan="2">Tanggal Lahir :</td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="tempat" id="tempat" size="25" placeholder="Masukkan Tempat Lahir">
+                            </td>
+                            <td colspan="2">
+                                <input type="date" name="tanggal" id="tanggal">
+                            </td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>Jenis kelamin :</td>
+                            <td colspan="2">Kewarganegaraan :</td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="gender" id="male" value="male" checked>
+                                <label for="male">Laki-laki</label>
+                                <br>
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="female">Perempuan</label>
+                            </td>
+                            <td colspan="2">
+                                <input type="radio" name="status" id="wni" value="wni" checked>
+                                <label for="wni">WNI</label>
+                                <br>
+                                <input type="radio" name="status" id="wna" value="wna">
+                                <label for="wna">WNA</label>
+                            </td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">Alamat Lengkap :</td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <textarea name="warganegara" id="warganegara" cols="57" rows="4"></textarea>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>Kecamatan :</td>
+                            <td>Kabupaten :</td>
+                            <td>Provinsi :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="kecamatan" id="kecamatan" size="25" placeholder="Masukkan Kecamatan">
+                            </td>
+                            <td>
+                                <input type="text" name="kabupaten" id="kabupaten" size="25" placeholder="Masukkan Kabupaten">
+                            </td>
+                            <td>
+                                <input type="text" name="provinsi" id="provinsi" size="25" placeholder="Masukkan Provinsi">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kode Pos :</td>
+                            <td>Handphone :</td>
+                            <td>Email</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="number" name="kode" id="kode" placeholder="xxxxx">
+                            </td>
+                            <td>
+                                <input type="tel" name="HP" id="HP" placeholder="xxxx-xxxx-xxxx">
+                            </td>
+                            <td>
+                                <input type="email" name="email" id="email" size="25" placeholder="nama@gmail.com">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <font color="#edf2fb">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3" bgcolor="#d1cfe2"><strong> &ensp; <font size="+1">Data Pendidikan</font></strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>NISN :</td>
+                            <td>Tahun Lulus :</td>
+                            <td>Status Sekolah Asal :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="nisn" id="nisn" size="25" placeholder="xxxxxxxxxx" required>
+                            </td>
+                            <td>
+                                <input type="text" name="lulus" id="lulus" size="25" placeholder="xxxx">
+                            </td>
+                            <td>
+                                <select name="status" id="status">
+                                    <option value="Status Sekolah"> -- Status Sekolah -- &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="Negeri">Negeri</option>
+                                    <option value="Swasta">Swasta</option>
+                                    <option value="Lainnya">Lainnya</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nama Sekolah :</td>
+                            <td>Jurusan :</td>
+                            <td>Rata-rata Nilai Rapor :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="sekolah" id="sekolah" size="25" placeholder="Masukkan Nama Sekolah">
+                            </td>
+                            <td>
+                                <input type="text" name="jurusan" id="jurusan" size="25" placeholder="Masukkan Jurusan">
+                            </td>
+                            <td>
+                                <input type="number" name="rapor" id="rapor" placeholder="Masukkan Nilai Rapor">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <font color="#edf2fb">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- data penghargaan dan prestasi -->
+                        <tr>
+                            <td colspan="3" bgcolor="#d1cfe2"><strong> &ensp; <font size="+1">Data Penghargaan & Prestasi</font> </strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3"><strong> Prestasi</strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>Nama Penghargaan :</td>
+                            <td>Instansi Pemberi :</td>
+                            <td>Tahun :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="penghargaan" id="penghargaan">
+                            </td>
+                            <td>
+                                <input type="text" name="instansi" id="instansi">
+                            </td>
+                            <td>
+                                <input type="number" name="tahunprestasi" id="tahunprestasi" placeholder="xxxx">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><strong> Nilai TOELF/IELTS</strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>Nama Penghargaan :</td>
+                            <td>Instansi Pemberi :</td>
+                            <td>Tahun :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="namapenghargaan" id="namapenghargaan">
+                            </td>
+                            <td>
+                                <input type="text" name="nilaiinstansi" id="nilaiinstansi">
+                            </td>
+                            <td>
+                                <input type="number" name="tahunnilai" id="tahunnilai" placeholder="xxxx">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <font color="#edf2fb">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- data keluarga -->
+                        <tr>
+                            <td colspan="3" bgcolor="#d1cfe2"><strong>&ensp; <font size="+1"> Data Keluarga</font></strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- data ayah -->
+                        <tr>
+                            <td colspan="3"><strong>Data Ayah</strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="2">Nama Ayah :</td>
+                            <!-- <td></td> -->
+                            <td>NIK :</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="text" name="ayah" id="ayah" size="61" placeholder="Masukkan Nama Lengkap">
+                            </td>
+                            <!-- <td></td> -->
+                            <td>
+                                <input type="number" name="nikayah" id="nikayah" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tempat Lahir :</td>
+                            <td colspan="2">Tanggal Lahir :</td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="lahirayah" id="lahirayah" size="25" placeholder="Masukkan Tampat Lahir">
+                            </td>
+                            <td colspan="2">
+                                <input type="date" name="tanggalayah" id="tanggalayah" size="25">
+                            </td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="2">Alamat Lengkap :</td>
+                            <!-- <td></td> -->
+                            <td>Kewarganegaraan :</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea name="warganegaraayah" id="warganegaraayah" cols="57" rows="3"></textarea>
+                            </td>
+                            <!-- <td></td> -->
+                            <td>
+                                <input type="radio" name="statusayah" id="wniayah" value="wniayah" checked>
+                                <label for="wniayah">WNI</label>
+                                <br>
+                                <input type="radio" name="statusayah" id="wnaayah" value="wnaayah">
+                                <label for="wnaayah">WNA</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kecamatan :</td>
+                            <td>Kabupaten :</td>
+                            <td>Provinsi :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="kecamatanayah" id="kecamatanayah" size="25" placeholder="Masukkan Kecamatan">
+                            </td>
+                            <td>
+                                <input type="text" name="kabupatenayah" id="kabupatenayah" size="25" placeholder="Masukkan Kabupaten">
+                            </td>
+                            <td>
+                                <input type="text" name="provinsiayah" id="provinsiayah" size="25" placeholder="Masukkan Provinsi">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pendidikan Terakhir :</td>
+                            <td>Pekerjaan :</td>
+                            <td>Handphone :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="pendidikan" id="pendidikan">
+                                    <option value="Pendidikan Terakhir">-- Pendidikan Terakhir -- &ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="Tidak Sekolah">Tidak Sekolah </option>
+                                    <option value="SD/Sederajat">SD/Sederajat</option>
+                                    <option value="SMP/Sederajat">SMP/Sederajat</option>
+                                    <option value="SMA/Sederajat">SMA/Sederajat</option>
+                                    <option value="Diploma">Diploma</option>
+                                    <option value="Sarjana">Sarjana</option>
+                                    <option value="Profesi">Profesi</option>
+                                    <option value="Lainnya">Lainnya</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="pekerjaan" id="pekerjaan">
+                                    <option value="Pilih Pekerjaan">-- Pilih Pekerjaan -- &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="Tidak Bekerja">Tidak Bekerja</option>
+                                    <option value="Nelayan">Nelayan</option>
+                                    <option value="Petani">Petani</option>
+                                    <option value="Peternak">Peternak</option>
+                                    <option value="PNS/TNI/Polri">PNS/TNI/Polri</option>
+                                    <option value="Karyawan Swasta">Karyawan Swasta</option>
+                                    <option value="Pedagang Kecil">Pedagang Kecil</option>
+                                    <option value="Pedagang Besar">Pedagang Besar</option>
+                                    <option value="Wirausaha/Wiraswasta">Wirausaha/Wiraswasta</option>
+                                    <option value="Buruh">Buruh</option>
+                                    <option value="Pensiunan">Pensiunan</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input type="tel" name="hp" id="hp" placeholder="xxxx-xxxx-xxxx">
+                            </td>
+                        </tr>
+                        <!-- data ibu -->
+                        <tr>
+                            <td colspan="3"><strong>Data Ibu</strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="2">Nama Ibu :</td>
+                            <!-- <td></td> -->
+                            <td>NIK :</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="text" name="ibu" id="ibu" size="61" placeholder="Masukkan Nama Lengkap">
+                            </td>
+                            <!-- <td></td> -->
+                            <td>
+                                <input type="number" name="nikibu" id="nikibu" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tempat Lahir :</td>
+                            <td colspan="2">Tanggal Lahir :</td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="tempatibu" id="tempatibu" size="25" placeholder="Masukkan Tempat Lahir">
+                            </td>
+                            <td colspan="2">
+                                <input type="date" name="lahiribu" id="lahiribu" size="25">
+                            </td>
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="2">Alamat Lengkap :</td>
+                            <!-- <td></td> -->
+                            <td>Kewarganegaraan :</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea name="warganegaraibu" id="warganegaraibu" cols="57" rows="3"></textarea>
+                            </td>
+                            <!-- <td></td> -->
+                            <td>
+                                <input type="radio" name="statusibu" id="wniibu" value="wniibu" checked>
+                                <label for="wniibu">WNI</label>
+                                <br>
+                                <input type="radio" name="statusibu" id="wnaibu" value="wnaibu">
+                                <label for="wnaibu">WNA</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kecamatan :</td>
+                            <td>Kabupaten :</td>
+                            <td>Provinsi :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="kecamatanibu" id="kecamatanibu" size="25" placeholder="Masukkan Kecamatan">
+                            </td>
+                            <td>
+                                <input type="text" name="kabupatenibu" id="kabupatenibu" size="25" placeholder="Masukkan Kabupaten">
+                            </td>
+                            <td>
+                                <input type="text" name="provinsiibu" id="provinsiibu" size="25" placeholder="Masukkan Provinsi">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pendidikan Terakhir :</td>
+                            <td>Pekerjaan :</td>
+                            <td>Handphone :</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="pendidikan" id="pendidikan">
+                                    <option value="Pendidikan Terakhir">-- Pendidikan Terakhir -- &ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="Tidak Sekolah">Tidak Sekolah </option>
+                                    <option value="SD/Sederajat">SD/Sederajat</option>
+                                    <option value="SMP/Sederajat">SMP/Sederajat</option>
+                                    <option value="SMA/Sederajat">SMA/Sederajat</option>
+                                    <option value="Diploma">Diploma</option>
+                                    <option value="Sarjana">Sarjana</option>
+                                    <option value="Profesi">Profesi</option>
+                                    <option value="Lainnya">Lainnya</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="pekerjaan" id="pekerjaan">
+                                    <option value="Pilih Pekerjaan"> -- Pilih Pekerjaan -- &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</option>
+                                    <option value="Tidak Bekerja">Tidak Bekerja</option>
+                                    <option value="Nelayan">Nelayan</option>
+                                    <option value="Petani">Petani</option>
+                                    <option value="Peternak">Peternak</option>
+                                    <option value="PNS/TNI/Polri">PNS/TNI/Polri</option>
+                                    <option value="Karyawan Swasta">Karyawan Swasta</option>
+                                    <option value="Pedagang Kecil">Pedagang Kecil</option>
+                                    <option value="Pedagang Besar">Pedagang Besar</option>
+                                    <option value="Wirausaha/Wiraswasta">Wirausaha/Wiraswasta</option>
+                                    <option value="Buruh">Buruh</option>
+                                    <option value="Pensiunan">Pensiunan</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input type="tel" name="handphone" id="handphone" size="25" placeholder="xxxx-xxxx-xxxx">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <font color="#edf2fb">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <!-- upload dokumen -->
+                        <tr>
+                            <td colspan="3" bgcolor="#d1cfe2"><strong> &ensp; <font size="+1"> Upload Dokument</font></strong></td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">Scan Ijazah/SKL SMA :</td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <label for="ijazah">Pilih File :</label>
+                                <input type="file" id="ijazah" name="ijazah">
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <font color="#edf2fb">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">Scan KTP/Kartu Pelajar :</td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <label for="kartu">Pilih File :</label>
+                                <input type="file" id="kartu" name="kartu">
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <font color="#edf2fb">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">Pasfoto Ukuran 4x6 :</td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <label for="foto">Pilih File :</label>
+                                <input type="file" id="foto" name="foto">
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <font color="#edf2fb">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center">
+                                <input type="reset" value="Reset">
+                                <input type="submit" value="Submit">
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <font color="#edf2fb">spasi</font>
+                            </td>
+                            <!-- <td></td> -->
+                            <!-- <td></td> -->
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
