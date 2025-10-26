@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objek check box</title>
+</head>
+
+<body>
+    Pilihlah maksimal 15 sks <br>
+    <form name="formtes" action="testform.htm" method="post">
+        <Script Language="JavaScript">
+            // kode - kode script
+            function cekKRS() {
+                var jum_sks = 0;
+                for (var i = 0; i < 6; i++) {
+                    if (document.formTes.elements[i].checked)
+                        jum_sks += matakuliah[i][2];
+                }
+                document.formTes.fieldJumlah.Value = jum_sks;
+                if (jum_sks > 15)
+                    alert("Anda harus mengurangi  SKS\n" + "karena melebihi 15 SKS");
+            }
+
+            function cekKirim() {
+                if (document.formTes.fieldJumlah.Value > 15)
+                    alert("Anda harus mengurangi SKS\n" + "karena melebihi 15 SKS");
+                else
+                    window.location.href = "testform.htm";
+            };
+
+            var matakuliah = [
+                    [
+                        ["TKD164", "Pemrograman Web", 3],
+                        ["TKD163", "Sistem Informasi", 3],
+                        ["TKD162", "Basis Data", 3],
+                        ["TKD161", "Matematika", 3],
+                        ["TKD160", "Analisa Desain SI", 3],
+                        ["TKD159", "PBO", 3]
+                    ];
+
+                    nt.write("<table border ='2'>");
+                    nt.write("<tr><th>Kode</th><th>Matakuliah</th>");
+                    nt.write("<th>SKS</th><th>pilihan</th></tr>");
+                    (r i = 0; i < 6; i++) {
+                        cument.write("<tr><td>" + matakuliah[i][0] +
+                            "</td><td>" + matakuliah[i][1] +
+                            "</td><td>" + matakuliah[i][2] +
+                            "</td><td><input type='checkbox'" +
+                            "NAME = 'mk" + matakuliah[i][0] + "'" +
+                            "onclick = 'cekKRS()'>");
+
+                        t.write("<tr><td colspan = '2'");
+                        document.write("align = 'right' > jumlah SKS </td>");
+                        document.write("<td colspan = '2'>");
+                        document.write("<input type ='text' value ='0'");
+                        document.write("size = '3'");
+                        document.write("name = 'fieldJumlah' </td></tr>");
+                        document.write("</table>");
+                    }
+        </Script>
+        <input type="button" name="tombolKirim" value="Kirim" onclick="cekKirim()">
+    </form>
+</body>
+
+</html>

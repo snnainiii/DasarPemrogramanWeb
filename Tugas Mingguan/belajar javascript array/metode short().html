@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metode Shot</title>
+</head>
+
+<body>
+    <Script Language="JavaScript">
+        // kode - kode script
+        var angka = new Array(1984, 11, 14, 2008, 12, 2003);
+        document.write("Asli: " + angka + "<br>");
+        document.write("Hasil: " + angka.sort() + "<br>");
+
+        function urutDescending(x, y) {
+            if (x > y)
+                return (-1);
+            if (x == y)
+                return (0);
+            if (x < y)
+                return (1)
+        }
+
+        document.write("Hasil descending: " + angka.sort(urutDescending));
+    </Script>
+</body>
+
+</html>

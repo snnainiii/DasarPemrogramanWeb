@@ -1,0 +1,126 @@
+/* box header */
+
+body {
+    font-family: verdana, arial, helveetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    /*pengaturan tebal tepi*/
+    padding: 20px;
+    /*memberi jarak antara tepi terhadap isi*/
+}
+
+#box_judul {
+    position: absolute;
+    height: 90px;
+    width: 900px;
+    background-color: white;
+    padding-top: 35px;
+    /*jarak tepi atas*/
+    padding-right: 0.02px;
+    /*jarak tepi kanan*/
+    padding-bottom: 0.02px;
+    /*jarak tepi bawah*/
+    padding-left: 50px;
+    /*jarak tepi kiri*/
+    line-height: 0.5px;
+    left: 50px;
+}
+
+
+/* style text */
+
+.text_judul {
+    font-family: verdana, helvetica, sans-serif;
+    font-size: 25px;
+    color: red;
+}
+
+
+/* navigasi kanan dan atas */
+
+.teks1 {
+    font-family: verdana, Helvetica, sans-serif;
+    font-size: 20 px;
+    color: pink;
+}
+
+#box_nav_top {
+    position: absolute;
+    background-color: #606060;
+    height: 90px;
+    width: 910px;
+    line-height: 16px;
+    left: 50px;
+    top: 95px;
+    padding: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: pink;
+}
+
+#box_nav_right {
+    position: absolute;
+    background-color: #606060;
+    height: 450px;
+    width: 460px;
+    line-height: 0.1px;
+    left: 500px;
+    top: 160px;
+    padding: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: pink;
+}
+
+
+/* box link */
+
+#stylelink_top a {
+    border-bottom: 1px;
+    background-color: #606060;
+    font-size: 15pt;
+    color: #ffff00;
+    height: 40px;
+    width: 100px;
+    padding-top: 9px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+#stylelink_right a {
+    display: block;
+    background-color: #606060;
+    font-size: 15pt;
+    color: #ffff00;
+    height: 40px;
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+}
+
+
+/* content */
+
+#box_content {
+    background-color: olive;
+    position: absolute;
+    height: 459px;
+    width: 430px;
+    left: 50px;
+    top: 170px;
+    padding: 10px;
+    border-left-width: 3px;
+    border-left-style: dotted;
+    border-left-color: pink;
+    border-right-width: 3px;
+    border-right-style: dotted;
+    border-right-color: pink;
+    border-top-width: 3px;
+    border-top-style: dotted;
+    border-top-color: pink;
+}

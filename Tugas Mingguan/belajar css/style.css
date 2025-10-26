@@ -1,0 +1,20 @@
+.headlines {
+    font-family: arial;
+    color: black;
+    background: yellow;
+    font-size: 14pt;
+}
+
+.sublines {
+    font-family: arial;
+    color: black;
+    background: yellow;
+    font-size: 12 pt;
+}
+
+.infotext {
+    font-family: arial;
+    color: black;
+    background: yellow;
+    font-size: 10pt;
+}

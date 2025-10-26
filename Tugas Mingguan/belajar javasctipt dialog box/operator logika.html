@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Logika</title>
+</head>
+
+<body>
+    <Script Language="JavaScript">
+        // kode - kode Script
+        var nilai1 = prompt("nilai nilai praktikum (0-100):", 0);
+        var nilai2 = prompt("nilai nilai kuliah (0-100):", 0);
+        var hasil = (nilai1 >= 80 || nilai2 > 75) ? "A" :
+            (nilai1 >= 75 || nilai2 > 60) ? "B+" :
+            (nilai1 >= 60 || nilai2 > 50) ? "B" :
+            "Tidak Lulus"
+        document.write("hasil: " + hasil);
+    </Script>
+</body>
+
+</html>

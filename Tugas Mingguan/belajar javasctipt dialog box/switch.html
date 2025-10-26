@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+
+<body>
+    <Script Language="JavaScript">
+        var tunggal = new Date();
+        var kode = tanggal.getDay();
+        var nama_hari = "";
+
+        switch (kode) {
+            case 0:
+                nama_hari = "Minggu";
+                break;
+            case 1:
+                nama_hari = "Senin";
+                break
+            case 2:
+                nama_hari = "Selasa";
+                break
+            case 3:
+                nama_hari = "Rabu";
+        }
+
+        document.write("hari ini hari: " + nama_hari);
+        document.write("<br> tanggal : " + tanggal.getDay() + "-" + (tanggal.getMonth() + 1) + "-" + tanggal.getYear());
+    </Script>
+</body>
+
+</html>
