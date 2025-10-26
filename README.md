@@ -1,133 +1,106 @@
-# 💻 Dasar Pemrograman Web – Praktikum
+# 💻 Dasar Pemrograman Web
 
-Kumpulan hasil praktikum **Dasar Pemrograman Web (Modul 1–8)** yang mencakup pembuatan halaman web dari dasar HTML hingga interaktivitas menggunakan JavaScript.
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
 
----
-
-## 🧩 Modul 1 – HTML Dasar
-- Membuat halaman tentang diri sendiri  
-- Membuat halaman tentang hobi  
-- Membuat halaman tentang lingkungan tempat tinggal  
-
----
-
-## 🧩 Modul 2 – HTML Lanjut (Tabel)
-- Membuat halaman web menggunakan elemen `<table>`  
-- Menampilkan data terstruktur seperti jadwal atau daftar item  
+Repositori ini berisi seluruh hasil pembelajaran dan proyek selama satu semester pada mata kuliah **Dasar Pemrograman Web**, mulai dari **praktikum HTML dasar hingga proyek akhir berbasis PHP**.
 
 ---
 
-## 🧩 Modul 3 – HTML Lanjut (Form)
-- Membuat form input (pendaftaran, login, survey)  
-- Menggabungkan HTML dasar, tabel, dan form  
+## 🏠 UTS — Homepage Personal
+
+### 📘 Deskripsi
+Website statis sederhana yang memperkenalkan diri mahasiswa dengan menggunakan **HTML dan CSS dasar**.  
+Berisi informasi pribadi, pendidikan, hobi, dan rencana proyek semester.
+
+### 📄 Struktur Halaman
+- 🏠 **Home:** Perkenalan singkat diri pembuat  
+- ℹ️ **About:** Biodata & latar belakang pendidikan  
+- 💡 **Project:** Daftar proyek semester  
+- ❤️ **Details:** Education, Hobby, dan Interest  
+
+### 🧩 Teknologi
+HTML5 • CSS dasar • Struktur semantik sederhana
 
 ---
 
-## 🧩 Modul 4 – Elemen Form & Validasi
-- Menambahkan elemen: textbox, radio button, checkbox, dropdown, textarea  
-- Menggunakan tombol submit & reset  
-- Validasi input sederhana  
+## 🏥 UAS — Rumah Sakit Harapan PAPA
+
+### 📘 Deskripsi
+Proyek akhir berupa **sistem rumah sakit berbasis web** yang dikembangkan dengan **PHP 7.4.19** dan **template Eduport (Bootstrap)**.  
+Sistem ini memiliki **4 role pengguna**: Admin, Dokter, Perawat, dan Pasien.
+
+### ⚙️ Fitur Utama
+- 📰 **Artikel Populer:** Menampilkan artikel kesehatan interaktif  
+- 🩺 **Edukasi Visual:** Gambar & animasi edukasi kesehatan  
+- 📚 **Buletin Sehat:** Ebook PDF online/offline  
+- 🎬 **Video Edukasi:** Tautan langsung ke YouTube  
+- 💊 **Admin Farmasi:** Manajemen data obat & kategori  
+
+### 🧩 Teknologi
+PHP • Bootstrap (Eduport) • MySQL • HTML • CSS • JS  
 
 ---
 
-## 🧩 Modul 5 – Navigasi Halaman Web
-- Membuat halaman utama dengan menu **Home**, **Login**, dan **About Us**  
-- Menu berpindah ke halaman atau bagian yang sesuai  
+## 🧠 Praktikum Modul 1–8
+
+### 1️⃣ HTML Dasar
+Membuat halaman tentang diri, hobi, dan lingkungan tempat tinggal.  
+
+### 2️⃣ HTML Lanjut (Tabel)
+Menampilkan data terstruktur dengan `<table>` tanpa CSS.  
+
+### 3️⃣ Form Input
+Membuat form pendaftaran, login, dan survei sederhana.  
+
+### 4️⃣ Elemen Form & Validasi
+Menggunakan textbox, dropdown, radio, checkbox, dan tombol submit/reset.  
+
+### 5️⃣ Navigasi Web
+Membuat menu **Home**, **Login**, dan **About Us** dengan navigasi antarbagian.  
+
+### 6️⃣ HTML & CSS Lanjut
+Membuat halaman bertema mata kuliah TI dengan layout:
+`Header • Menu • Content • Sidebar • Footer`  
+
+### 7️⃣ JavaScript Prompt & Alert
+Mengambil input user (nama, tanggal lahir) dan menampilkan usia.  
+
+### 8️⃣ Validasi Form Login
+Membuat form login dengan validasi input kosong dan NIM hanya angka.  
 
 ---
 
-## 🧩 Modul 6 – HTML & CSS Lanjut
-- Membuat halaman bertema mata kuliah Teknik Informatika  
-- Layout berisi: Header, Menu, Content, Sidebar, Footer  
-- Styling dengan CSS eksternal  
+## 📚 Tugas Harian (1–9)
+
+| No | Topik | Ringkasan |
+|----|--------|------------|
+| 🧩 1 | **Tag HTML** | Penggunaan `<img>`, `<a>`, `<p>`, `<h1>–<h6>`, atribut dasar |
+| 🧱 2 | **HTML Lanjut** | Pembuatan tabel & form dengan atribut lengkap |
+| 🎨 3 | **CSS Dasar** | Styling dengan `border`, `color`, `background`, `font` |
+| 🧭 4 | **CSS Layout** | Pembuatan layout menu navigasi dan tata letak web |
+| ⚙️ 5 | **JavaScript Array** | Array 1D, 2D, 3D, dan manipulasi data dengan index |
+| 💬 6 | **JavaScript Dialog Box** | Penggunaan `alert`, `prompt`, `confirm`, dan logika `if` |
+| 🐘 7 | **PHP Dasar** | Struktur kontrol: `if`, `else`, `switch`, operator aritmetika |
+| 🔧 8 | **PHP Lanjut** | Penggunaan `while`, `do while`, `break`, `continue`, dan fungsi |
+| 📂 9 | **Array & File** | Manipulasi array, fungsi `sort()`, dan penyimpanan file `.txt` |
 
 ---
 
-## 🧩 Modul 7 – JavaScript Prompt & Alert
-- Mengambil input nama dan tanggal lahir dengan `prompt`  
-- Menghitung usia dan menampilkannya menggunakan `alert`  
+## 🌐 Homepage (Portfolio)
+Halaman utama menampilkan **profil pribadi**, foto, dan deskripsi singkat.  
+Dibuat dengan HTML & CSS untuk menampilkan identitas pembuat dengan tampilan menarik dan responsif.
 
 ---
 
-## 🧩 Modul 8 – Validasi Form Login
-- Membuat halaman login interaktif  
-- Validasi input kosong dan NIM hanya angka  
-- Pesan error dinamis dan redirect ke halaman lain  
+### 👩‍💻 Disusun oleh
+Mahasiswa **Teknik Informatika – Universitas Trunojoyo Madura**  
+Sebagai bagian dari penilaian **praktikum, tugas harian, UTS, dan UAS** mata kuliah *Dasar Pemrograman Web.*
 
 ---
-
-
-# 💻 Tugas Mingguan 
-
-Repositori ini berisi kumpulan **tugas mingguan** mata kuliah **Dasar Pemrograman Web** yang mencakup dasar pembuatan dan pemrograman website menggunakan **HTML, CSS, JavaScript, dan PHP**.
-
----
-
-## 📘 Daftar Tugas Mingguan
-
-### 1. 🧩 Tag HTML
-Membahas berbagai elemen dasar HTML seperti:
-- `<img>`, `<a>` (hyperlink), `<p>` (paragraf), `<h1>`–`<h6>` (heading)
-- Atribut seperti `background`, `align`, `width`, `height`, dan lainnya  
-🧠 *Tujuan:* Membuat halaman perkenalan dengan struktur dan tampilan sederhana.
-
----
-
-### 2. 🧱 HTML Lanjut
-Penerapan elemen **tabel dan form** beserta atributnya.  
-🧠 *Contoh:* Membuat tabel biodata dan form login sederhana menggunakan `<table>`, `<form>`, `<input>`, `<textarea>`.
-
----
-
-### 3. 🎨 CSS
-Mengatur tampilan halaman menggunakan CSS eksternal dan inline:  
-- Properti seperti `border`, `color`, `background-image`, `background-color`, `font-size`, `style`  
-🧠 *Contoh:* Mendesain halaman profil dengan warna dan gaya teks yang menarik.
-
----
-
-### 4. 🧭 CSS Layout
-Membuat tata letak halaman (layout) dengan elemen **header, menu, content, sidebar, footer**.  
-🧠 *Contoh:* Layout menu navigasi dengan posisi tetap (fixed) menggunakan `div` dan `flexbox`.
-
----
-
-### 5. ⚙️ JavaScript Array
-Belajar manipulasi data menggunakan array satu dimensi, dua dimensi, dan tiga dimensi.  
-🧠 *Contoh:* Menyimpan daftar nama dan menampilkannya menggunakan perulangan dan `index`.
-
----
-
-### 6. 💬 JavaScript Dialog Box
-Penerapan logika dasar dan interaksi dengan pengguna:  
-- `alert()`, `prompt()`, `confirm()`  
-- Struktur `if`, `if else`, `switch`, operator aritmetika & logika  
-🧠 *Contoh:* Validasi input nama dan usia menggunakan dialog box.
-
----
-
-### 7. 🐘 PHP Dasar
-Pengenalan pemrograman sisi server dengan PHP:  
-- Struktur kontrol (`if`, `else`, `switch`)  
-- Operator aritmetika, assignment, dan logika  
-🧠 *Contoh:* Membuat proses login sederhana dengan validasi kondisi.
-
----
-
-### 8. 🔧 PHP Lanjut
-Pendalaman logika dan fungsi PHP:  
-- Penggunaan `while`, `do while`, `break`, `continue`, dan fungsi buatan sendiri.  
-🧠 *Contoh:* Menampilkan bilangan ganjil/genap menggunakan perulangan.
-
----
-
-### 9. 📂 Array dan File
-Manipulasi data array dan penyimpanan file.  
-- Fungsi `asort()`, `ksort()`, `sort()`, serta penggunaan index string.  
-🧠 *Contoh:* Menulis data array ke file `.txt` dan membacanya kembali.
-
----
-
-## 🏠 Homepage
-Halaman utama berisi **profil pribadi** dengan informasi nama, hobi, dan deskripsi singkat yang ditata menggunakan HTML dan CSS.
-
