@@ -93,7 +93,7 @@ Membuat form login dengan validasi input kosong dan NIM hanya angka.
 
 ---
 
-## 🌐 Homepage (Portfolio)
+## 🌐 Homepage 
 Halaman utama menampilkan **profil pribadi**, foto, dan deskripsi singkat.  
 Dibuat dengan HTML & CSS untuk menampilkan identitas pembuat dengan tampilan menarik dan responsif.
 
